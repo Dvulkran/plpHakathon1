@@ -39,18 +39,45 @@
 
     
     <!-- Header -->
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">David Muigai</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#education">Education</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav class="container">
+        <a href="#" class="logo">David Muigai</a>
+        
+        <!-- Original desktop navigation -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        
+        <!-- Hamburger Menu (Mobile) -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="nav-links-mobile">
+            <label for="menu-toggle" class="close-btn">&times;</label>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#education">Education</a>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="nav-overlay"></div>
+        <!-- NEW: Clickable overlay to close menu by clicking outside -->
+        <label for="menu-toggle" class="nav-overlay-label"></label>
+    </nav>
+</header>
+
+
 
     <main>
         <!-- Hero Section -->
