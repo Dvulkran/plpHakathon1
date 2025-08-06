@@ -4,7 +4,7 @@ A modern, responsive, and visually engaging portfolio built for the **PLP Hackat
 This project showcases my skills as a **Full-Stack Developer**, **Android Developer**, and **Electrical & Electronics Engineer**, combining creative design with technical expertise.
 
 ## 🚀 Live Demo
-[View My Portfolio](https://your-portfolio-url.com)  
+[View My Portfolio](https://plp-hakathon1.vercel.app/)  
 
 
 ---
